@@ -1,0 +1,266 @@
+BODY{
+    margin: 0;
+    padding: 0;
+}
+#top{
+    background-color: #3b5998;
+    width: 100vw;
+    height: 12vh;
+}
+#left_fb{
+    position: absolute;
+    left:17.5vw;
+    top:4vh;
+}
+#imgfb{
+    height:32px;
+    width:168px;
+}
+#right_input{
+    position:fixed;
+    left: 57vw;
+    top:1.5vh;
+}
+.l1{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:12px;
+}
+.input{
+    width: 146px;
+    height:16.6px;
+}
+#emailnp{
+    position: absolute;
+    top: 3.5vh;
+}
+#lpwd{
+    position: absolute;
+}
+#pwd{
+    position: absolute;
+    top:3.5vh;
+}
+#right_input2{
+    position:fixed;
+    left: 68vw;
+    top:1.5vh;
+}
+#login{
+    height: 28.6px;
+    width: 55.2px;
+    position:absolute;
+    left: 79vw;
+    top: 5vh;
+    font-size: 12px;
+    background-color: #4267b2;
+    border-color: #4267b2;
+    color:white;
+}
+#fgac{
+    color:#9cb4d8;
+    position:absolute;
+    top: 8.8vh;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    left: 68vw;
+}
+#fgac:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:darkblue;
+}
+#base{
+    //border: 2px solid red;
+    width: 100vw;
+    height: 78vh;
+    background:linear-gradient(white, #D3D8E8);
+}
+#text{
+    font-size: 20px;
+    color: #0e385f;
+    font-weight: bold;
+    line-height: 29px;
+    word-spacing:-1px;
+    position: absolute;
+    top:17vh;
+    left:17.6vw;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#fbbc{
+    width:537px;
+    height:195px;
+    position: absolute;
+    top:26vh;
+    left:17.6vw;
+}
+#form{
+    position:fixed;
+    left: 56vw;
+    height:77vh;
+    //border:2px solid red;
+    width:44vw;
+}
+#head1{
+    font-size: 36px;
+    font-family: Helvetica, Arial, sans-serif;
+    color:#333;
+    font-weight: bold;
+    position: absolute;
+    top: 3vh;
+}
+#head2{
+    font-size: 19px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 10vh;
+}
+#fname{
+    position: absolute;
+    top: 15vh;
+    border-radius: 5px;
+    height:20.8px;
+    width: 172px;
+    border-style: solid;
+    border-width: 1px;
+    text-shadow: none;
+    color: grey;
+    padding:8px;
+    font-size: larger;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#lname{
+    position: absolute;
+    top: 15vh;
+    left:28vh;
+    border-radius: 5px;
+    height:20.8px;
+    width: 172px;
+    border-style: solid;
+    border-width: 1px;
+    text-shadow: none;
+    color: grey;
+    padding:8px;
+    font-size: larger;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#email{
+    position: absolute;
+    top: 22vh;
+    border-radius: 5px;
+    height:20.8px;
+    width: 377px;
+    border-style: solid;
+    border-width: 1px;
+    text-shadow: none;
+    color: grey;
+    padding:8px;
+    font-size: larger;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#newpwd{
+    position: absolute;
+    top: 29vh;
+    border-radius: 5px;
+    height:20.8px;
+    width: 377px;
+    border-style: solid;
+    border-width: 1px;
+    text-shadow: none;
+    color: grey;
+    padding:8px;
+    font-size: larger;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#hit{
+    font-size: 18px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 38vh;
+}
+#day{
+    font-size: 13px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 42vh;
+    padding: 7px;
+}
+#day2{
+    font-size: 13px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 42vh;
+    padding: 7px;
+    left: 5vw;
+}
+#day3{
+    font-size: 13px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 42vh;
+    padding: 7px;
+    left: 10.5vw;
+}
+#fem{
+    font-size: 16px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 48.4vh;
+    padding: 7px;
+    left: 1vw;
+}
+#fem1{
+    font-size: 19px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 49vh;
+    padding: 7px;
+    //left: 10.5vw;
+}
+#m{
+    font-size: 16px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 48.4vh;
+    padding: 7px;
+    left: 7vw;
+}
+#m1{
+    font-size: 19px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 49vh;
+    padding: 7px;
+    left: 6vw;
+}
+#smth{
+    font-size: 11px;
+    color: #365899;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 51vh;
+    padding: 7px;
+    //left: 6vw;
+}
+#acc{
+    font-size: 19px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 63vh;
+    padding: 10px;
+    background-color: #69a74e;
+    border-style: none;
+    border-radius: 5px;
+    height: 39.2px;
+    width: 220.1px;
+}
